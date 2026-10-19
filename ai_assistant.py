@@ -12,6 +12,12 @@ client = OpenAI(
 
 # Introducing memory in our assistant
 messages = []
+messages.append(
+    {
+        "role": "system",
+        "content": "Act as a funny person and reply in less than 20 words.",
+    }
+)
 
 while True:
     user_input = input("\nYou: ")
