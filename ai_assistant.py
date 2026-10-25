@@ -44,10 +44,13 @@ while True:
             tool_call_name = tool_call.function.name
             tool_args = json.loads(tool_call.function.arguments or {})
             print(tool_call_name, tool_args)
-            # ** -> Dictionary Unpacking operator converts dict to attributes
-            tool_response = FUNCTION_NAME_TO_FUNCTION_MAP.get(tool_call_name)(
-                **tool_args
-            )
+            try:
+                # ** -> Dictionary Unpacking operator converts dict to attributes
+                tool_response = FUNCTION_NAME_TO_FUNCTION_MAP.get(tool_call_name)(
+                    **tool_args
+                )
+            except Exception as e:
+                tool_response = f"Error while running {tool_call_name}:{e}"
             messages.append(
                 {
                     "role": "tool",
