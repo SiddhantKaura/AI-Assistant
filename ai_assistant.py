@@ -12,6 +12,8 @@ client = OpenAI(
     api_key=os.getenv("API_KEY"),
 )
 
+MAX_STEPS = 10
+
 # Introducing memory in our assistant
 messages = []
 messages.append(
@@ -27,8 +29,8 @@ while True:
         break
     messages.append({"content": user_input, "role": "user"})
 
-    # Chained Tool Calling
-    while True:
+    # Bounded chained Tool Calling
+    for step in range(MAX_STEPS):
         response = client.chat.completions.create(
             model=os.getenv("MODEL"), messages=messages, tools=TOOLS
         )
@@ -39,9 +41,8 @@ while True:
             break
 
         for tool_call in msg.tool_calls:
-            print(tool_call.function)
             tool_call_name = tool_call.function.name
-            tool_args = json.loads(tool_call.function.arguments)
+            tool_args = json.loads(tool_call.function.arguments or {})
             print(tool_call_name, tool_args)
             # ** -> Dictionary Unpacking operator converts dict to attributes
             tool_response = FUNCTION_NAME_TO_FUNCTION_MAP.get(tool_call_name)(
@@ -54,3 +55,11 @@ while True:
                     "content": str(tool_response),
                 }
             )
+    else:
+        # In python, this else will run when the above bounded tool loop ends due to steps exhaustion.
+        messages.append(
+            {
+                "role": "assistant",
+                "content": "Sorry, I could not finish this within the steps limit.",
+            }
+        )
