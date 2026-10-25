@@ -26,6 +26,8 @@ while True:
     if user_input.lower() in ["quit", "bye", "exit"]:
         break
     messages.append({"content": user_input, "role": "user"})
+
+    # Chained Tool Calling
     while True:
         response = client.chat.completions.create(
             model=os.getenv("MODEL"), messages=messages, tools=TOOLS
