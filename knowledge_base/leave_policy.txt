@@ -1,0 +1,69 @@
+NOVATECH SOLUTIONS
+LEAVE MANAGEMENT POLICY
+
+Policy ID: HR-LEAVE-001
+Version: 2.1
+Effective Date: 01 January 2026
+Last Updated: 15 September 2026
+
+1. Purpose
+This policy defines the leave entitlements, eligibility criteria, approval processes, and rules for employees of NovaTech Solutions.
+
+2. Types of Leave
+2.1 Casual Leave (CL)
+Every permanent employee receives 12 days of Casual Leave per calendar year.
+Casual Leave can be taken for personal reasons or emergencies.
+Employees can take a maximum of 3 consecutive Casual Leave days.
+Unused Casual Leave expires at the end of the calendar year.
+Casual Leave cannot be encashed.
+
+2.2 Sick Leave (SL)
+Employees receive 10 days of Sick Leave annually.
+A medical certificate is required when Sick Leave exceeds 2 consecutive working days.
+Sick Leave cannot be transferred to another employee.
+Unused Sick Leave cannot be encashed.
+Sick Leave can be taken during emergencies without prior approval, but the employee must notify their manager as soon as possible.
+
+2.3 Earned Leave (EL)
+Permanent employees receive 18 days of Earned Leave annually.
+Earned Leave accrues at 1.5 days per month.
+Employees can carry forward up to 30 unused Earned Leave days.
+Earned Leave exceeding 30 days will expire at the end of the financial year.
+Earned Leave requests should be submitted at least 7 calendar days in advance.
+Earned Leave can be encashed during separation according to company rules.
+
+2.4 Maternity Leave
+Eligible employees receive maternity benefits according to applicable Indian law.
+Employees should inform HR as early as reasonably possible.
+Relevant medical documentation may be requested.
+
+2.5 Paternity Leave
+Eligible male employees receive 10 working days of paid Paternity Leave.
+Paternity Leave must be taken within 6 months of the child's birth or adoption.
+Paternity Leave cannot be carried forward.
+
+3. Leave Approval Process
+Employees must submit leave requests through the HR portal.
+Casual Leave should preferably be requested 2 working days in advance.
+Earned Leave requires 7 calendar days' advance notice.
+The reporting manager is responsible for approving or rejecting leave requests.
+HR must approve leave requests exceeding 15 consecutive calendar days.
+
+4. Leave During Notice Period
+Employees serving notice must obtain manager and HR approval before taking leave.
+Unapproved leave may be treated as unpaid leave.
+Earned Leave settlement will be handled during final settlement.
+Leave cannot automatically extend the notice period.
+
+5. Leave Without Pay (LWP)
+Employees who exhaust their paid leave balance may request Leave Without Pay.
+LWP requires approval from the reporting manager and HR.
+Salary deductions are calculated based on the number of unpaid working days.
+
+6. Important Rules
+Employees must not submit overlapping leave requests.
+False medical documentation may result in disciplinary action.
+Employees must ensure proper work handover before planned extended leave.
+
+7. Contact
+For leave-related questions, contact: leave@novatech.example

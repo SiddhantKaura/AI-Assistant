@@ -1,0 +1,97 @@
+NOVATECH SOLUTIONS
+REQUEST FOR CHANGE (RFC) POLICY
+
+Policy ID: IT-RFC-003
+Version: 1.4
+Effective Date: 01 March 2026
+
+1. Purpose
+This policy defines the process for requesting, reviewing, approving, implementing, and closing changes to production systems and IT infrastructure.
+
+2. Scope
+This policy applies to:
+Production application deployments.
+Database schema modifications.
+Infrastructure configuration changes.
+Network and firewall modifications.
+Security-related changes.
+Cloud infrastructure modifications.
+Changes to personal development environments do not require formal RFC approval.
+
+3. Types of Changes
+3.1 Standard Change
+A pre-approved, low-risk, repeatable change.
+Must follow an established implementation procedure.
+Does not require individual Change Advisory Board approval.
+Example: Routine password rotation.
+
+3.2 Normal Change
+A change requiring formal review and approval.
+Must include risk assessment and rollback procedures.
+Example: Deploying a new application version to production.
+
+3.3 Emergency Change
+A change required to resolve a critical production incident or security vulnerability.
+Can receive expedited approval from the Emergency Change Approver.
+Retrospective documentation must be completed within 24 hours.
+
+4. RFC Submission Requirements
+Every normal RFC must include:
+RFC identification number.
+Requester's name and department.
+Description of the proposed change.
+Business justification.
+Expected implementation date.
+Impact assessment.
+Risk assessment.
+Testing evidence.
+Implementation plan.
+Rollback plan.
+Incomplete RFC requests will be returned to the requester.
+
+5. Approval Matrix
+Low-risk changes: Technical Lead approval.
+Medium-risk changes: Technical Lead and IT Manager approval.
+High-risk changes: IT Manager and Change Advisory Board approval.
+Emergency changes: Emergency Change Approver approval.
+
+6. Change Advisory Board (CAB)
+The CAB reviews high-risk changes and evaluates:
+Business impact.
+Security implications.
+Technical feasibility.
+Resource availability.
+Implementation timing.
+Recovery strategy.
+CAB meetings are held every Tuesday and Thursday.
+
+7. Change Implementation Windows
+Standard production deployments should occur between 10 PM and 2 AM.
+Production changes are prohibited during month-end financial closing unless specifically approved.
+Emergency changes may be implemented outside normal change windows.
+
+8. Testing and Validation
+Changes must be tested in a staging environment before production deployment.
+Database changes require backup verification.
+Security-related changes require security team review.
+Post-deployment validation must be documented.
+
+9. Rollback Procedure
+Every normal RFC must contain a documented rollback procedure.
+If implementation fails:
+Stop further deployment activities.
+Notify the IT Manager.
+Execute the approved rollback plan.
+Verify system stability.
+Record the failure and recovery details.
+
+10. RFC Closure
+An RFC can be closed only after:
+Implementation is completed.
+Post-deployment testing is successful.
+Stakeholders are notified.
+Required evidence is attached.
+The change owner records the final outcome.
+
+11. Contact
+IT Change Management: change.management@novatech.example

@@ -1,0 +1,87 @@
+NOVATECH SOLUTIONS
+EMPLOYEE REIMBURSEMENT POLICY
+
+Policy ID: FIN-REIM-005
+Version: 1.8
+Effective Date: 01 February 2026
+
+1. Purpose
+This policy establishes guidelines for reimbursement of legitimate business expenses incurred by employees while performing their official duties.
+
+2. Eligible Expenses
+Employees may claim reimbursement for the following expenses:
+Business travel.
+Hotel accommodation.
+Client meetings.
+Approved meals during business travel.
+Internet expenses for eligible remote employees.
+Approved training and certification fees.
+Local transportation for official business.
+Personal purchases and expenses unrelated to business activities are not reimbursable.
+
+3. Travel Reimbursement Limits
+3.1 Domestic Travel
+Employees are eligible for the following hotel limits per night:
+Junior employees: INR 3,000.
+Mid-level employees: INR 4,500.
+Senior employees: INR 6,500.
+Department heads: INR 9,000.
+
+3.2 Local Transportation
+Taxi expenses are reimbursable when public transportation is impractical.
+Employees should use company-approved transportation providers wherever available.
+Personal vehicle usage requires prior manager approval.
+Fuel reimbursement for approved personal vehicle usage is INR 12 per kilometre.
+
+4. Meal Allowance
+Employees travelling for business may claim meal expenses up to:
+Breakfast: INR 250.
+Lunch: INR 450.
+Dinner: INR 550.
+Alcoholic beverages and personal entertainment expenses are not reimbursable.
+
+5. Internet Reimbursement
+Eligible remote employees can claim up to INR 1,000 per month for home internet expenses.
+The following conditions apply:
+The employee must be approved for remote work.
+An internet service provider invoice is required.
+Mobile data top-ups are not covered.
+Unused monthly allowance cannot be carried forward.
+
+6. Training and Certification
+Employees can claim up to INR 20,000 annually for approved professional certifications.
+Prior written manager and HR approval is mandatory.
+Courses must be relevant to the employee's current role or an approved career development plan.
+Employees must submit proof of course completion.
+
+7. Claim Submission Process
+Employees must:
+Log in to the expense management portal.
+Select the relevant expense category.
+Enter the expense date and amount.
+Upload original invoices or valid digital receipts.
+Provide a business justification.
+Submit the claim to their reporting manager.
+
+8. Submission Deadlines
+Expense claims must be submitted within 30 calendar days of the expense date.
+Claims submitted after 30 days require an exception approved by the Finance Manager.
+Claims older than 90 days are generally rejected unless an exceptional waiver is granted.
+
+9. Approval Process
+Claims up to INR 5,000 require reporting manager approval.
+Claims between INR 5,001 and INR 25,000 require manager and Finance approval.
+Claims exceeding INR 25,000 require department head and Finance Controller approval.
+All claims are subject to policy compliance and supporting documentation.
+
+10. Reimbursement Timeline
+Finance reviews complete claims within 5 working days.
+Approved reimbursements are processed within 7 working days after approval.
+Incomplete claims are returned to employees for correction.
+
+11. Fraud and Misuse
+Submitting fabricated invoices, duplicate claims, or personal expenses as business expenses is prohibited.
+Violations may result in claim rejection and disciplinary action.
+
+12. Contact
+Finance Department: reimbursements@novatech.example

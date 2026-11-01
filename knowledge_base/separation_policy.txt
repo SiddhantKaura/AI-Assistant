@@ -1,0 +1,79 @@
+NOVATECH SOLUTIONS
+EMPLOYEE SEPARATION POLICY
+
+Policy ID: HR-SEP-004
+Version: 2.2
+Effective Date: 01 January 2026
+
+1. Purpose
+This policy describes the procedures and responsibilities associated with employee separation from NovaTech Solutions.
+
+2. Types of Separation
+Employee separation may occur through:
+Voluntary resignation.ß
+Retirement.
+Termination due to performance or misconduct.
+Mutual separation agreement.
+End of fixed-term employment contract.
+Death of an employee.
+
+3. Resignation Process
+Employees must submit their resignation through the HR portal or official email.
+The resignation date is considered the start of the notice period.
+HR will acknowledge the resignation within 2 working days.
+The reporting manager will initiate the knowledge transfer process.
+
+4. Notice Period
+The standard notice period is determined by employment category:
+Employees on probation: 15 calendar days.
+Confirmed employees with less than 3 years of service: 30 calendar days.
+Confirmed employees with 3 or more years of service: 60 calendar days.
+Senior management employees: 90 calendar days.
+Notice period waivers or reductions require written approval from HR and the department head.
+
+5. Notice Period Buyout
+Employees may request a notice period buyout.
+Buyout approval is subject to business requirements.
+The buyout amount is calculated using the employee's applicable salary components and the unserved notice period.
+The company may waive the notice period in exceptional circumstances.
+
+6. Knowledge Transfer
+Before the last working day, employees must:
+Document ongoing projects.
+Transfer ownership of assigned tasks.
+Share relevant technical documentation.
+Hand over client and stakeholder information.
+Return company-issued assets.
+The reporting manager must confirm completion of knowledge transfer.
+
+7. Exit Clearance
+Clearance is required from:
+Reporting Manager.
+Human Resources.
+Information Technology.
+Finance Department.
+Administration Department.
+All company assets must be returned before final settlement.
+
+8. Full and Final Settlement
+Full and Final Settlement may include:
+Salary payable up to the last working day.
+Eligible unused Earned Leave encashment.
+Approved unpaid reimbursements.
+Applicable bonuses, if eligible.
+Notice period recovery, where applicable.
+Outstanding employee advances or other recoveries.
+The target processing period is 30 calendar days after the last working day and completion of required clearances, subject to applicable law and pending documentation.
+
+9. Experience and Relieving Letters
+Employees who complete the separation process are eligible for an experience letter.
+Relieving letters are issued after clearance completion.
+Employment verification requests must be directed to HR.
+Pending disciplinary or legal matters may require additional review.
+
+10. Confidentiality
+Employees must continue to protect confidential company information after separation.
+Employees must not retain company source code, customer data, internal documents, or intellectual property without written authorization.
+
+11. Contact
+Employee Separation Team: separation@novatech.example
