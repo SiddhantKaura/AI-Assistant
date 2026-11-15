@@ -1,5 +1,6 @@
 from datetime import datetime
 from utils.utils import log
+from rag import search_query_chunks
 import requests
 import json
 
@@ -14,6 +15,18 @@ def get_city_weather(city):
     # Raise error if other than 200 status code.
     response.raise_for_status()
     return response.text
+
+
+def search_knowledge_base(query):
+    chunks = search_query_chunks(query, 2)
+    blocks = []
+    for chunk in chunks:
+        source = chunk["source"]
+        chunkId = chunk["chunkId"]
+        content = chunk["content"]
+        blockContent = f"{source} #{chunkId}\n{content}"
+        blocks.append(blockContent)
+    return "\n\n".join(blocks)
 
 
 # TOOLS = [{}, {}, {}]
@@ -43,11 +56,29 @@ TOOLS = [
             },
         },
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "search_knowledge_base",
+            "description": "Searches companies knowledge base to answer queries related to companies leave, hr, reimbursement, rfc and separation policies.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "User's query in concise form to get it searched in the companies knowledge base.",
+                    }
+                },
+                "required": ["query"],
+            },
+        },
+    },
 ]
 
 FUNCTION_NAME_TO_FUNCTION_MAP = {
     "get_current_time": get_current_time,
     "get_city_weather": get_city_weather,
+    "search_knowledge_base": search_knowledge_base,
 }
 
 
