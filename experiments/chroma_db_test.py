@@ -1,12 +1,26 @@
 import chromadb
+import os
 from dotenv import load_dotenv
+from openai import OpenAI
 
 load_dotenv()
 
-userQuery = "What are the leave policies ?"
+EMBEDDING_MODEL = os.getenv("EMBED_MODEL")
 
-client = chromadb.Client()
-collection = client.create_collection(name="NOVATECH_SOLUTIONS")
+openaiClient = OpenAI(base_url=os.getenv("BASE_URL"), api_key=os.getenv("API_KEY"))
+# Persistent DB client to persist data on disk
+chromadbClient = chromadb.PersistentClient(path="./chromadbStorage")
+
+
+def create_embedding(content):
+    response = openaiClient.embeddings.create(input=content, model=EMBEDDING_MODEL)
+    return response.data[0].embedding
+
+
+# Using cosine similarity for semantic matching
+collection = chromadbClient.get_or_create_collection(
+    name="NOVATECH_SOLUTIONS", configuration={"hnsw": {"space": "cosine"}}
+)
 
 chunks = {
     "c0": "Employees are expected to work 40 hours per week, typically from Monday to Friday. Standard working hours are 9:00 AM to 6:00 PM, with a one-hour lunch break. Employees must inform their managers if they expect to be late or absent.",
@@ -18,10 +32,18 @@ chunks = {
 
 chunkIds = list(chunks.keys())
 chunkContents = list(chunks.values())
+embeddings = []
+for c in chunkContents:
+    embeddings.append(create_embedding(c))
 
 # Storing the embeddings generated from the chunks in vectorDB, it generates embedding itself.
 # By default, it is using all-MiniLM-L6-v2 model.
-collection.add(ids=chunkIds, documents=chunkContents)
+# upsert helps in case documents, embeddings gets updated
+collection.upsert(ids=chunkIds, documents=chunkContents, embeddings=embeddings)
+
 # Semantic seraching the user query.
-results = collection.query(query_texts=[userQuery], n_results=2)
+userQuery = "What are the leave policies ?"
+query_embedding = create_embedding(userQuery)
+results = collection.query(query_embeddings=[query_embedding], n_results=2)
+
 print(results["documents"])
